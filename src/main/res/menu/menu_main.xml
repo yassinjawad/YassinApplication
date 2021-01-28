@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.yassinapplication.MainActivity">
+    <item
+        android:id="@+id/action_java"
+        android:orderInCategory="1"
+        android:title="@string/java_rules"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_kotlin"
+        android:orderInCategory="1"
+        android:title="@string/kotlin_rules"
+        app:showAsAction="never" />
+</menu>
